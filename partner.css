@@ -1,0 +1,120 @@
+#sidebar-wrapper {display: none}
+#post-wrapper {width: 100%; max-width:1000px;}
+.post-container {padding-right: 0;}
+.comments {display: none;}
+h1.post-title {
+    font-size: 20px;
+    background: #1a1a1a;
+    text-align: center;
+    border-left: 5px solid #009fff;
+    border-right: 5px solid #009fff;
+    border-bottom: 2px solid #1a1a1a;
+    border-top: 2px solid #1a1a1a;
+    padding: 5px;
+}
+.post-container {padding-right: 0;}
+summary{border-bottom:1px solid #ececec;font-size: 13px;}
+.summary-content{margin-top: 5px;
+    padding: 5px;
+    margin-bottom: 5px;
+    font-size: 14px;
+    border: 1px solid #ececec;
+    line-height: 20px;
+}
+summary:focus {
+    outline-color: transparent;
+}
+p {
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: normal;
+    line-height: normal;
+    margin: 0;
+}
+.card__content, .card-featured {background: #1a1a1a;}
+.card__title.font.animesiteh2 a {font-size: 1rem;color:#fff !important;}
+.card__title.font.animesiteh2 a {font-size: 1rem;color:#fff !important;}
+#post-wrapper {width:100%;max-width: none;}
+#sidebar-wrapper {display:none}
+@media only screen and (max-width:480px){
+#labelshort {column-count: 1;}
+}
+.card__image--search img {
+    border: 2px solid #ff00fa;
+    padding: 5px;
+}
+.card__content.card__content--search.flex.align-items-start.animesite {
+    border-left: solid 20px 
+    #4f5063;
+}
+.card__title.font.animesiteh2 {
+    font-size: 1rem;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    margin: 0.6em 0 0.5em;
+}
+.card__data--search {
+    font-size: 12px;
+}
+.animesite {
+    border-radius: 50px 0 50px;
+    padding: 0.5rem;
+}
+.card__content, .card-featured {
+box-shadow: 0 0 0px 0
+rgba(0,0,0,.12), 0 2px 11px 0
+    rgba(77, 77, 77, 0.14);
+    transition: all .3s ease-in-out;
+}
+.card__content--search {
+    margin-bottom: 10px;
+}
+.card__content, .card-featured {
+    line-height: 1.5rem;
+    -webkit-animation: fade-in-bl 1s cubic-bezier(.39,.575,.565,1.000) both;
+    animation: fade-in-bl 1s cubic-bezier(.39,.575,.565,1.000) both;
+}
+.align-items-start {
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+}
+.flex {
+    display: flex;
+}
+article .post-body {
+    color: 
+    #ddd;
+}
+article .post-body {
+    font-size: 1.1rem;
+}
+body {
+    font-family: 'RobotoDraft', sans-serif;
+}
+body {
+    font-weight: 400;
+}
+.card__image--search {
+    width: 70px;
+    margin-right: 1.5rem;
+    -webkit-box-flex: 1;
+    -ms-flex: 0 0 auto;
+    flex: 0 0 auto;
+}
+.card__data--search {
+    display: block;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.card__data--search, .card__descripcion--search {
+    padding: 0;
+}
+.card__content, .card-featured {
+    line-height: 1.5rem;
+    padding-right: 10px;
+}
+.card__title.font.animesiteh2 {
+    font-size: 1rem;
+}
